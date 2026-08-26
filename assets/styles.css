@@ -130,17 +130,13 @@ body { font-family: 'Inter', sans-serif; }
         font-variant-numeric: lining-nums;
         font-feature-settings: 'lnum' 1, 'onum' 0;
       }
-      /* The mark is drawn as vector art, so it stays crisp at any size and
-         takes its colour from the text around it — navy in the header,
-         cream on the navy footer. No box needed. */
-      /* Colour and halo are baked into the artwork, so nothing here paints it. */
+      /* The mark is drawn as vector art, so it stays crisp at any size.
+         Navy in the header, cream on the navy footer. No box needed. */
+      /* The artwork carries its own fill, so nothing here paints it. */
       .brand-mark { display: block; flex: none; width: auto; }
-      /* Heights are 8.24% over the old 34 / 42 / 78 because the viewBox now
-         carries 40 units of padding on each side for the halo to render into.
-         The mark itself lands at exactly the size it was before. */
-      header .brand-mark { height: 36.8px; }
-      @media (min-width: 640px) { header .brand-mark { height: 45.5px; } }
-      footer .brand-mark { height: 84.4px; }
+      header .brand-mark { height: 34px; }
+      @media (min-width: 640px) { header .brand-mark { height: 42px; } }
+      footer .brand-mark { height: 78px; }
 
       /* ---- Icon system -------------------------------------------------- */
       .ic { width: 1em; height: 1em; display: inline-block; vertical-align: -0.125em;
