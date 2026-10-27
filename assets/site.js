@@ -16,7 +16,7 @@
 const GOOGLE = {
   apiKey: "",
   placeId: "",
-  placeUrl: "https://www.google.com/maps/search/?api=1&query=99%27s%20Tailoring%20%26%20Alterations%2C%201582%20S%20Parker%20Rd%20Ste%20304%2C%20Denver%2C%20CO%2080231"
+  placeUrl: "https://www.google.com/maps/search/?api=1&query=99%27s%20Tailoring%20%26%20Alterations%2C%207537%20E%20Iliff%20Ave%2C%20Denver%2C%20CO%2080231"
 };
 
 /* ================================================================
